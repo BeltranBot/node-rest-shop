@@ -19,7 +19,7 @@ exports.signup = (req, res, next) => {
             email: req.body.email,
             password: hash
           })
-          User.save()
+          user.save()
             .then(result => {
               console.log(result)
               res.status(201).json({
