@@ -1,5 +1,6 @@
 {
   "env": {
-    "MONGO_ATLAS_PW": "your mongo db password here"
+    "MONGO_ATLAS_PW": "<your mongo db password here>",
+    "JWT_KEY": "<your jwt key here>"
   }
 }
